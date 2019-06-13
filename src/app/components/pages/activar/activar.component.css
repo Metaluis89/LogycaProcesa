@@ -27,6 +27,10 @@
     overflow: auto;
 }
 
+.row {
+    text-align: center;
+}
+
 table {
     width: 100%;
 }
