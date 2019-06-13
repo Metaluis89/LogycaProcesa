@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        overflow-x: no-display !important;
+    }
+}
+
+.active_spinner {
+    position: absolute;
+    width: 300px;
+    top: 150px;
+    z-index: 9;
+}
+
+.advanced-pie-legend {
+    width: auto !important;
+}

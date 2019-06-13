@@ -1,0 +1,44 @@
+<header class="topbar">
+    <nav class="navbar top-navbar navbar-expand-md navbar-light">
+        <div class="navbar-header">
+            <a class="navbar-brand" [routerLink]="['/home']" routerLinkActive="router-link-active">
+                <b>
+                    <img src="assets/img/iconLogyca.png" alt="homepage" class="dark-logo" width="70%" height="70%"  />                    
+                </b>
+                <span>
+                    <img src="assets/img/logyca.png" alt="homepage" class="dark-logo" width="40%"/><a style="font-weight: bold"> - PROCESA</a>                    
+                </span>
+            </a>
+        </div>
+        <div class="navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                <li class="nav-item hidden-sm-down"></li>
+            </ul>
+            <ul class="navbar-nav my-lg-0">
+                <li class="nav-item hidden-xs-down search-box"> <a class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i class="ti-search"></i></a>
+                    <form class="app-search">
+                        <input type="text" class="form-control" placeholder="Search & enter"> <a class="srh-btn"><i class="ti-close"></i></a> </form>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/admin.png" alt="user" class="profile-pic" /></a>
+                    <div class="dropdown-menu dropdown-menu-right animated fadeIn">
+                        <ul class="dropdown-user">
+                            <li>
+                                <div class="dw-user-box">
+                                    <div class="u-img"><img src="assets/img/admin.png" alt="user"></div>
+                                    <div class="u-text">
+                                        <h4>Steave Jobs</h4>
+                                        <p class="text-muted">varun@gmail.com</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#"><i class="fa fa-power-off"></i>Logout</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

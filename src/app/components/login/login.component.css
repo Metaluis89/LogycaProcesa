@@ -1,0 +1,116 @@
+.mat-input-element {
+    caret-color: #00b09b;
+}
+
+.mat-input-element {
+    color: #ffffff !important;
+}
+
+.sbody {
+    background: #ffffff;
+    color: #ffffff !important;
+    /* background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png), url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png), url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png); */
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: no-display;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mat-dialog-container {
+    padding: 0px !important;
+}
+
+.mbody {
+    background-color: rgb(252, 255, 224);
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+    margin-bottom: 60px;
+}
+
+.vertical-offset-100 {
+    padding-top: 50px;
+}
+
+.background {
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 60px;
+}
+
+.contenedor {
+    background: white;
+    width: 65%;
+    -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+    width: 100%;
+}
+
+h3 {
+    font-weight: bold;
+    margin-left: 12px;
+    font-size: .8em;
+    display: inline-block;
+    color: black;
+}
+
+h4 {
+    font-weight: bold;
+    color: black;
+}
+
+.izquierda {
+    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-derecha {
+    width: 100%;
+    height: 100%;
+}
+
+.input-group-text {
+    background-color: white;
+    padding: 2px
+}
+
+.form-2 {
+    display: flex;
+    align-items: inherit;
+    justify-content: space-between;
+}
+
+.menus {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menus a {
+    font-size: .8em!important;
+}
+
+.form-check-input {
+    margin-left: 0;
+}
+
+.ingresar {
+    font-size: 1.1em!important;
+    border-radius: 10px;
+    padding: 2px 40px;
+}
+
+.imgFlg {
+    width: 25px;
+    height: 15px;
+}
