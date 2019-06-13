@@ -1,23 +1,40 @@
-.example-card {
+.card {
     max-width: 100%;
     top: 10px;
     text-align: justify;
 }
 
-.example-card-list {
+.card-list {
     max-width: 100%;
     top: 10px;
     text-align: justify;
     background-color: silver;
 }
 
-.example-header-image {
+.header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
 }
 
-.example-button-row button,
-.example-button-row a {
+.button-row button,
+.button-row a {
     margin-right: 8px;
     background-color: #fa4f10!important;
+}
+
+.container {
+    height: 270px;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+}
+
+tr.mat-footer-row {
+    font-weight: bold;
+}
+
+.mat-table-sticky {
+    border-top: 1px solid #e0e0e0;
 }
