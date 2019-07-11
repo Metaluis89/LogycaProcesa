@@ -17,6 +17,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ActivarComponent } from './components/pages/activar/activar.component';
 import { RespuestaInterceptor } from './services/respuesta.interceptor';
 import { SolicitudInterceptor } from './services/solicitud.interceptor';
+import { PruebasComponent } from './components/pruebas/pruebas.component';
+
 
 @NgModule({
 
@@ -28,6 +30,7 @@ import { SolicitudInterceptor } from './services/solicitud.interceptor';
     HeaderComponent,
     SidebarComponent,
     ActivarComponent,
+    PruebasComponent,
 
   ],
   imports: [

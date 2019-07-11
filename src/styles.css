@@ -433,7 +433,7 @@ mat-header-cell {
 
 .container-fluid {
     padding-top: 0;
-    overflow: auto;
+    overflow-y: scroll;
     height: -webkit-fill-available;
 }
 
